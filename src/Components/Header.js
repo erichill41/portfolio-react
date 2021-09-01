@@ -1,4 +1,5 @@
 import React from "react";
+import NavBar from "./NavBar";
 
 
 function Header() {
@@ -9,6 +10,9 @@ function Header() {
                     <h1 className="display-4 pb-2"> Eric Hill | <small className="text-muted"> Software Engineer </small> </h1>
                 </div>
             </header>
+            
+            <NavBar />
+            
         </div>
     );
 };
