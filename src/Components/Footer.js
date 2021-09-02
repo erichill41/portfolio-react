@@ -1,12 +1,16 @@
 import React from "react";
-
-// learn how to make footer stay at bottom of react page
-
+import NavBar from "./NavBar";
 
 function Footer() {
     return (
-        <div className="container-fluid bg-dark fixed-bottom"> 
-            <p className="text-white"> Created by Eric </p>
+        <div className="container-fluid rounded bg-dark sticky-bottom">
+            <div className="row p-2 align-items-center">
+                <p className="text-white col-9"> Created by Eric </p>
+                <div className="col-auto"> 
+                    <NavBar />
+                </div>    
+            </div> 
+            
         </div>
        
     );

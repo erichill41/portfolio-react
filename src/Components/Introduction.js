@@ -1,11 +1,12 @@
 import React from "react";
+import headshot from "../images/headshot.jpg";
 
 function Dashboard() {
 
   return (
     <>
-      <div className="group">
-          <div className="item">
+      <div className="container-fluid row align-items-center mb-3">
+          <div className="col-9">
               <h3 className="display-6 mb-3">Hello! My name is Eric Hill</h3>
               <p className="lead">
                   I am a recent graduate of Thinkful's Software Engineering program living near Denver, Colorado. I want to introduce myself so you
@@ -20,7 +21,12 @@ function Dashboard() {
                   through, and I couldn't be happier with my decision!
               </p>
           </div>
-      </div>   
+          <div className="col-auto">
+            <img src={headshot} className="img-fluid rounded" alt="2021 Headshot" />
+          </div>
+      </div>
+
+      <hr />   
     </>
   );
 

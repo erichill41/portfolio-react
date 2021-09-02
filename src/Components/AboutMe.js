@@ -3,14 +3,14 @@ import React from "react";
 import forester from "../images/forester_camping.jpeg";
 import keystone from "../images/keystone_landscape.jpeg";
 // import headshot from "../images/headshot.jpg";
-import gusInYard from "../images/gus_in_yard.jpeg";
 import gusZoe from "../images/gus_zoe_car.jpeg";
 
 function AboutMe () {
   return (
     <>
-    <div className="row justify-content-around mb-4">
-      <div className="card w-50 mr-3">
+    <div className="container-fluid row align-items-center mb-4" id="About-Me">
+        <h3 className="display-6 mb-3"> Life away from the office </h3>
+      <div className="card col">
           <img src={forester} className="card-img-top" alt="..."/>
           <div className="card-body">
               <p className="card-text">
@@ -20,20 +20,19 @@ function AboutMe () {
               </p>
           </div>
       </div>
-      <div className="card w-50" >
+      <div className="card col" >
           <img src={keystone} className="card-img-top" alt="..." />
           <div className="card-body">
               <p className="card-text">
-                  Winter sports are just as big a part of my love for Colorado. I have skied for most of my life but this 
-                  year I decided to teach myself how to snowboard; I sought to bridge the gap between snowboarders and skiers.
-                  Another winter sport that has been a big influencer in my life is hockey; giving me a strong base for character
-                  and teamwork. 
+                  Winter is just as special to me in the mountains. I have skied for most of my life but this 
+                  year I decided to teach myself how to snowboard. Another winter sport that has been a big influencer in
+                  my life is hockey; giving me a strong base for character and teamwork. 
               </p>
           </div>
       </div>
     </div>
 
-    <div className="row justify-content-around">
+    <div className="container-fluid align-items-center row justify-content-around">
       <div className="card w-50 mr-3">
           <img src={gusZoe} className="card-img-top" alt="..."/>
           <div className="card-body">
@@ -45,13 +44,10 @@ function AboutMe () {
           </div>
       </div>
       <div className="card w-50" >
-          <img src={gusInYard} className="card-img-top" alt="..." />
+          <img className="card-img-top" alt="..." />
           <div className="card-body">
               <p className="card-text">
-                  Winter sports are just as big a part of my love for Colorado. I have skied for most of my life but this 
-                  year I decided to teach myself how to snowboard; I sought to bridge the gap between snowboarders and skiers.
-                  Another winter sport that has been a big influencer in my life is hockey; giving me a strong base for character
-                  and teamwork. 
+                  Make new card.
               </p>
           </div>
       </div>

@@ -5,7 +5,7 @@ import Home from "./Home";
 
 function App() {
   return (
-    <div className="container">
+    <div className="container-fluid">
       <Home />
     </div> 
   );

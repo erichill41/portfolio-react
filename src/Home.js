@@ -1,7 +1,6 @@
 import React from "react";
-import { Route, Switch } from "react-router-dom";
 import AboutMe from "./Components/AboutMe";
-import Dashboard from "./Components/Dashboard";
+import Introduction from "./Components/Introduction";
 import Footer from "./Components/Footer";
 import Header from "./Components/Header";
 import Portfolio from "./Components/Portfolio";
@@ -12,21 +11,10 @@ function Home() {
     return (
         <>
         <Header />
-            <Switch>
-                <Route exact path="/">
-                    <Dashboard />
-                </Route>
-                <Route exact path="/about">
-                    <AboutMe />
-                </Route>
-                <Route exact path="/portfolio">
-                    <Portfolio />
-                </Route>
-                <Route exact path="/contact">
-                    <Contact />
-                </Route>
-            </Switch>
-
+        <Introduction />                
+        <AboutMe />
+        <Portfolio />        
+        <Contact />
         <Footer />
         </>
     );

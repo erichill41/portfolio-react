@@ -2,29 +2,23 @@ import React from "react";
 
 function NavBar() {
   return (
-    <div className="navbar justify-content">
-        <div>
-            <a href="/">
+    <div className="btn-toolbar" role="toolbar">
+        <div className="btn-group">
+            <a href="#Home">
                 <button type="button" className="btn btn-outline-light">
                     Home
                 </button>
             </a>
-        </div>
-        <div>
-            <a href="/about">
+            <a href="#About-Me">
                 <button type="button" className="btn btn-outline-light">
                     About Me
                 </button>
             </a>
-        </div>
-        <div>
-            <a href="/portfolio">
+            <a href="#Portfolio">
                 <button type="button" className="btn btn-outline-light">
                     Portfolio
                 </button>
             </a>
-        </div>
-        <div>
             <a href="/contact">
                 <button type="button" className="btn btn-outline-light">
                     Contact
