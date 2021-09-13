@@ -1,13 +1,12 @@
 import React from "react";
-import NavBar from "./NavBar";
 
 function Footer() {
     return (
-        <div className="container-fluid rounded bg-dark sticky-bottom">
+        <div className="container-fluid rounded bg-dark fixed-bottom">
             <div className="row p-2 align-items-center">
-                <p className="text-white col-9"> Created by Eric </p>
+                <p className="text-white col"> Created by Eric </p>
                 <div className="col-auto"> 
-                    <NavBar />
+                    <p className="text-white"> Links to GitHub, LinkedIn will go here </p>
                 </div>    
             </div> 
             

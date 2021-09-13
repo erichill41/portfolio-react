@@ -1,29 +1,24 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 function NavBar() {
   return (
     <div className="btn-toolbar" role="toolbar">
         <div className="btn-group">
-            <a href="#Home">
+            <Link to="/">
                 <button type="button" className="btn btn-outline-light">
                     Home
                 </button>
-            </a>
-            <a href="#About-Me">
-                <button type="button" className="btn btn-outline-light">
-                    About Me
-                </button>
-            </a>
-            <a href="#Portfolio">
+            </Link>
+            <Link to="/Portfolio">
                 <button type="button" className="btn btn-outline-light">
                     Portfolio
                 </button>
-            </a>
-            <a href="/contact">
+            </Link>
+            <Link to="/contact">
                 <button type="button" className="btn btn-outline-light">
                     Contact
                 </button>
-            </a>
+            </Link>
         </div>
     </div>
   );

@@ -6,7 +6,7 @@ function Header() {
     return (
         <div className="container-fluid shadow-lg p-2 mb-3 bg-dark rounded" id="Home">
             <div className="row align-items-center">
-                <header className="jumbotron col-9">
+                <header className="jumbotron col-10">
                     <div className="text-white">
                         <h1 className="display-4 pb-1"> Eric Hill | <small className="text-muted"> Software Engineer </small> </h1>
                     </div>

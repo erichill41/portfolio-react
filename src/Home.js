@@ -1,5 +1,5 @@
 import React from "react";
-import AboutMe from "./Components/AboutMe";
+import { Route, Switch } from "react-router-dom";
 import Introduction from "./Components/Introduction";
 import Footer from "./Components/Footer";
 import Header from "./Components/Header";
@@ -11,10 +11,17 @@ function Home() {
     return (
         <>
         <Header />
-        <Introduction />                
-        <AboutMe />
-        <Portfolio />        
-        <Contact />
+        <Switch>
+            <Route exact path="/">
+                <Introduction />            
+            </Route>
+            <Route exact path="/Portfolio">
+                <Portfolio />
+            </Route>
+            <Route exact path="/Contact">
+                <Contact />
+            </Route>
+        </Switch>
         <Footer />
         </>
     );
