@@ -1,15 +1,17 @@
 import React from "react";
 import pomodoro from "../images/pomodoro.jpeg";
+import reservations from "../images/reservations.jpeg";
+import flashcards from "../images/flashcards.jpeg";
 
 function Portfolio() {
   return (
     <div className="container-fluid bg-dark mb-3 rounded" id="Portfolio">
       <h2 className="text-light display-6 p-3"> Sample projects </h2>
-      <p className="text-white">
+      <p className="text-white p-3">
         Over the course of the Thinkful program I developed a few applications to gain knowledge
-        in Javascript, React, RESTful API's and other tools. Below are a few of those projects I 
+        in JavaScript, React, RESTful API's and other tools. Below are a few of those projects I 
         was exposed to during Thinkful's curriculum. Source code for the rest of the applications
-        can be found on my GitHub profile
+        can be found on my GitHub profile.
       
       </p>
         <div className="card-deck row p-3">
@@ -31,7 +33,7 @@ function Portfolio() {
               </p>
             </div>
 
-            <img className="card-img" src="..." alt="Project Tile"/>
+            <img className="card-img" src={reservations} alt="Project Tile"/>
 
             <div className="card-footer row">
               <a
@@ -42,15 +44,6 @@ function Portfolio() {
                 type="button"
               >
                 View Source Code on GitHub
-              </a>
-              <a
-                href="https://pomodoro-timer-green.vercel.app/" 
-                target="_blank"
-                rel="noreferrer"
-                className="btn btn-outline-dark bg-danger  col"
-                type="button"
-              >
-                  Link to Live Deployment of project
               </a>
             </div>
           </div>
@@ -71,7 +64,7 @@ function Portfolio() {
               </p>
             </div>
 
-            <img className="card-img" src="..." alt="Project Tile"/>
+            <img className="card-img" src={flashcards} alt="Project Tile"/>
 
             <div className="card-footer row">
               <a
@@ -82,15 +75,6 @@ function Portfolio() {
                 type="button"
               >
                 View Source Code on GitHub
-              </a>
-              <a
-                href="https://pomodoro-timer-green.vercel.app/" 
-                target="_blank"
-                rel="noreferrer"
-                className="btn btn-outline-dark bg-danger  col"
-                type="button"
-              >
-                  Link to Live Deployment of project
               </a>
             </div>
           </div>
@@ -139,15 +123,26 @@ function Portfolio() {
           
 
           <div className="card col bg-light border-dark">
-            <img className="card-img-top" src="..." alt="Project Tile"/>
-            <div className="card-body">
-              <h5 className="card-title"> GrubDash </h5>
-              <p className="card-text"> Here I will describe the project I made </p>
-              <p className="card-text"> Here I will talk about the tools used </p>
+          <div className="mt-2">
+            <h4 className="card-title text-center"> View Other Work On GitHub </h4>  
+          </div>
+            <div className="col card-body">
+              <p className="card-text">
+                My full portfolio can be found on my GitHub page.
+                I will keep this page updated with my most recent and relevant applications.
+              </p>
+              <hr/>
             </div>
-            <div className="card-footer">
-              <a href="..." className="btn btn-outline-dark" type="button"> Link to GitHub repo of project </a>
-              <a href="..." className="btn btn-outline-dark" type="button"> Link to Live Deployment of project </a>
+            <div className="card-footer row">
+              <a
+                href="https://github.com/erichill41"
+                target="_blank"
+                rel="noreferrer"
+                className="btn btn-outline-dark bg-info col"
+                type="button"
+              >
+                Personal GitHub
+              </a>
             </div>
           </div>
         </div>
