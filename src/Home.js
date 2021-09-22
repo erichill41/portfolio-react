@@ -22,7 +22,7 @@ function Home() {
                 <Contact />
             </Route>
         </Switch>
-        <Footer />
+        <Footer className="fixed-bottom"/>
         </>
     );
 };
