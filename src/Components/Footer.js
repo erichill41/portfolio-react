@@ -2,7 +2,7 @@ import React from "react";
 
 function Footer() {
     return (
-        <div className="container-fluid rounded bg-dark fixed-bottom">
+        <div className="container-fluid rounded bg-dark sticky-bottom mt-3">
             <div className="row p-2 align-items-center">
                 <p className="text-white col"> Created by Eric Hill </p>
                 <div className="col-auto"> 
