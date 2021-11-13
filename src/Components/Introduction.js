@@ -4,11 +4,12 @@ import forester from "../images/forester_camping.jpeg";
 import keystone from "../images/keystone_landscape.jpeg";
 import hockey from "../images/hockey.jpeg";
 
+
 function Dashboard() {
 
   return (
     <>
-      <div className="container-fluid row align-items-center mb-5">
+      <div className="container-fluid row align-items-center mb-5" id="Introduction">
           <div className="col">
               <p className="lead">
                   Hello there! My name is Eric and I am a recent graduate of Thinkful's Software Engineering program.
@@ -50,7 +51,7 @@ function Dashboard() {
           </figure>
         </div>
 
-        <div className="row text-center">
+        <div className="row text-center mb-5">
           <p className="lead">
               After moving back to Colorado in 2020, I wanted to take more advantage of what the area has to offer. 
               In my free time I try to be as active as possible; camping, cycling, golf, and rock climbing are 
@@ -61,7 +62,8 @@ function Dashboard() {
               each week as a way to stay around the game and fuel my competitive spirit.
           </p>
         </div>
-      </div>    
+      </div>
+      <hr/>
     </>
   );
 

@@ -1,5 +1,4 @@
 import React from "react";
-import NavBar from "./NavBar";
 
 
 function Header() {
@@ -16,7 +15,20 @@ function Header() {
                     </div>
                 </header>
                 <div className="col-auto">
-                    <NavBar />
+                    <div className="btn-toolbar" role="toolbar">
+                        <div className="btn-group">
+                            <a href="https://github.com/erichill41" target="blank">
+                                <button type="button" className="btn btn-outline-light">
+                                    GitHub
+                                </button>
+                            </a>
+                            <a href="https://www.linkedin.com/in/erichill41/" target="blank">
+                                <button type="button" className="btn btn-outline-light">
+                                    LinkedIn
+                                </button>
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
             

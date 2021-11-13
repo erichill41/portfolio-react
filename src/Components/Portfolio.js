@@ -4,7 +4,7 @@ import reservations from "../images/reservations.jpeg";
 
 function Portfolio() {
   return (
-    <div className="container-fluid bg-dark mb-3 rounded">
+    <div className="container-fluid bg-dark mb-3 rounded" id="Portfolio">
       <h2 className="text-light display-6 p-3 text-center"> Sample projects </h2>
       <p className="text-white p-3 text-center lead">
         Over the course of the Thinkful program I developed a few applications to gain knowledge

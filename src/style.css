@@ -1,0 +1,8 @@
+#Introduction {
+  background-color: blue;
+  scroll-snap-type: y mandatory;
+}
+
+.div {
+  scroll-snap-align: start;
+}

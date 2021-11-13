@@ -26,7 +26,7 @@ function Contact() {
   
   return (
     <>
-      <div className="container-fluid ">
+      <div className="container-fluid" id="Contact">
           <div className="row align-items-center p-3">
             <div className="col text-center">
                   <p className="lead">
