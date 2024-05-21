@@ -114,13 +114,11 @@ function Portfolio() {
 
               <hr/>
 
-              <h5 className="card-title text-center"> Home Improvement Application </h5>
+              <h5 className="card-title text-center"> Re-Factoring Old Projects </h5>
               <p className="card-text text-center">
-                Right now I am making an application called "Home Improvement". Recently, my girlfriend
-                and I purchased our first home and we quickly found projects to do around the house. 
-                This application will help us organize and prioritize these projects so we can plan our 
-                home goals. Other features of the application are to view all bills, with links to their
-                respective login pages, and a budget feature will be implemented in the future.
+                Because it has been several years since I focused on React projects I am currently
+                working through some of my projects from bootcamp to re-factor with principles I
+                have learned with professional experience.
               </p>
 
               <hr/>

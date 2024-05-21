@@ -1,5 +1,5 @@
 import React from "react";
-import headshot from "../images/headshot.jpg";
+import headshot from "../images/headshot.jpeg";
 import forester from "../images/forester_camping.jpeg";
 import keystone from "../images/keystone_landscape.jpeg";
 import hockey from "../images/hockey.jpeg";
@@ -12,16 +12,14 @@ function Dashboard() {
       <div className="container-fluid row align-items-center mb-5" id="Introduction">
           <div className="col">
               <p className="lead">
-                  Hello there! My name is Eric and I am a recent graduate of Thinkful's Software Engineering program.
-                  I want to introduce myself so you can get a glance at who I am; both on professional level, and to show some
-                  of what I like to do outside of working with code! On my webpage you'll find more information about me, a glance at some of
-                  the projects I have been working on, and several ways to reach me.
+                  It's crazy to see the differences in my skills from the time I created this website to now, 
+                  after graduating from Thinkful's Software Engineering bootcamp in 2021 I was able to start work
+                  with BillGO helping Americans manage their bills and payments.
               </p>
               <p className="lead mb-4">
-                  I haven't always been passionate about writing code, I have several friends close to me who are developers now but I didn't
-                  know much about what they did. Working in sales at Dell Technologies was a great opportunity for me to learn more about the 
-                  technical side of the equipment we use. This fueled my newfound passion for engineering, leading to the career change I am going
-                  through, and I couldn't be happier with my decision!
+                  Making the shift from technology sales to engineering has been one of the better decisions
+                  of my life. I truly enjoy the problem solving aspects of my daily tasks now, and really strive
+                  for an outstanding user experience.
               </p>
           </div>
 
